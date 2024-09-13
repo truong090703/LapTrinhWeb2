@@ -1,18 +1,15 @@
 package com.example.baitap;
 
-import java.time.LocalDate;
 
 public class User {
     private String firstName;
     private String lastName;
-    private String dob; // Ngày sinh
-    private String hometown; // Quê quán
+    private String dob;
+    private String hometown;
 
-    // Constructor không tham số
     public User() {
     }
 
-    // Constructor có tham số
     public User(String firstName, String lastName, String dob, String hometown) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -20,7 +17,6 @@ public class User {
         this.hometown = hometown;
     }
 
-    // Getter và Setter
     public String getFirstName() {
         return firstName;
     }
